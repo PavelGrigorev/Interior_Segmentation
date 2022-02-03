@@ -16,6 +16,7 @@ run.py
     ```shell
     pip install -r requirements.txt
     ```
+Weights link: https://cloud.degoo.com/share/4nlK0XRlD7TsXJagixXe1A
 
 Код тестировался с Python 3.7, PyTorch 1.8.0, OpenCV 4.5.1, и timm 0.4.5
 
