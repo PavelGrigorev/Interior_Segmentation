@@ -19,7 +19,7 @@ run.py
 1) Download the model weights and place them in the `weights` folder:
 
 
-[Weights link](tps://cloud.degoo.com/share/4nlK0XRlD7TsXJagixXe1A)
+[Weights link](https://cloud.degoo.com/share/4nlK0XRlD7TsXJagixXe1A)
 
 2) Set up dependencies:
 
