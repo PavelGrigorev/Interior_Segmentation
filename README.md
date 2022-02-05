@@ -1,26 +1,35 @@
-## Vision Transformers для Сегментации
+## Vision Transformers РґР»СЏ РЎРµРіРјРµРЅС‚Р°С†РёРё
 
 [How it works on DemoPanel](https://demo.neural-university.ru/interior-nodepth.html)
 
 run.py
-'''Принимает директорию с изображениями, отдаёт карты сегментации в указанную директорию
-Вход:
-	-i строка с адресом дирекории с изображениями (jpeg)
-Выход:
-	-o строка с адресом директории с картами сигментации (png)
-Веса:
-	-m строка с адресом директории с файлом весов модели
+
+
+'''РџСЂРёРЅРёРјР°РµС‚ РґРёСЂРµРєС‚РѕСЂРёСЋ СЃ РёР·РѕР±СЂР°Р¶РµРЅРёСЏРјРё, РѕС‚РґР°С‘С‚ РєР°СЂС‚С‹ СЃРµРіРјРµРЅС‚Р°С†РёРё РІ СѓРєР°Р·Р°РЅРЅСѓСЋ РґРёСЂРµРєС‚РѕСЂРёСЋ
+Р’С…РѕРґ:
+	-i СЃС‚СЂРѕРєР° СЃ Р°РґСЂРµСЃРѕРј РґРёСЂРµРєРѕСЂРёРё СЃ РёР·РѕР±СЂР°Р¶РµРЅРёСЏРјРё (jpeg)
+Р’С‹С…РѕРґ:
+	-o СЃС‚СЂРѕРєР° СЃ Р°РґСЂРµСЃРѕРј РґРёСЂРµРєС‚РѕСЂРёРё СЃ РєР°СЂС‚Р°РјРё СЃРёРіРјРµРЅС‚Р°С†РёРё (png)
+Р’РµСЃР°:
+	-m СЃС‚СЂРѕРєР° СЃ Р°РґСЂРµСЃРѕРј РґРёСЂРµРєС‚РѕСЂРёРё СЃ С„Р°Р№Р»РѕРј РІРµСЃРѕРІ РјРѕРґРµР»Рё
 
 (run.py -i pics4segm -o output_hibrid -m weights/dpt_hybrid-ade20k-53898607.pt)
   
-Есть зависимости
+	
+1) Download the model weights and place them in the `weights` folder:
+
+
+[Weights link](tps://cloud.degoo.com/share/4nlK0XRlD7TsXJagixXe1A)
+
+2) Set up dependencies:
+
+Р•СЃС‚СЊ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё
 
     ```shell
     pip install -r requirements.txt
     ```
-[Weights link](tps://cloud.degoo.com/share/4nlK0XRlD7TsXJagixXe1A)
 
-Код тестировался с Python 3.7, PyTorch 1.8.0, OpenCV 4.5.1, и timm 0.4.5
+РљРѕРґ С‚РµСЃС‚РёСЂРѕРІР°Р»СЃСЏ СЃ Python 3.7, PyTorch 1.8.0, OpenCV 4.5.1, Рё timm 0.4.5
 ### Acknowledgements
 This modul was build based on [this repo](https://github.com/isl-org/DPT)
 
