@@ -1,5 +1,7 @@
 ## Vision Transformers для Сегментации
 
+[How it works on DemoPanel](https://demo.neural-university.ru/interior-nodepth.html)
+
 run.py
 '''Принимает директорию с изображениями, отдаёт карты сегментации в указанную директорию
 Вход:
