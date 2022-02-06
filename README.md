@@ -21,6 +21,8 @@ run.py
 
 [Weights link](https://cloud.degoo.com/share/4nlK0XRlD7TsXJagixXe1A)
 
+[GoogleDrive](https://drive.google.com/uc?id=12hjeU0iBpxbX_IB5g2gc5evLeZAebqxH)
+
 2) Set up dependencies:
 
 Есть зависимости
